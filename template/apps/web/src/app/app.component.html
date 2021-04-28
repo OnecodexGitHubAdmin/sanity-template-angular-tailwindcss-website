@@ -1,0 +1,30 @@
+<ng-container *ngIf="$contentObservable | async as config">
+  <div class="w-full flex flex-col">
+    <header class="flex flex-row flex-wrap lg:justify-center items-center justify-end bg-accent p-4 rounded fixed top-0 w-full h-14 border-b-4 border-primary z-10">
+      <a class="icon flex flex-row space-x-4 justify-start items-center no-underline absolute left-4 top-auto bottom-auto" [href]="config.url || '.'">
+        <img *ngIf="config.logo?.asset?.url"  class="w-auto h-full max-h-12 object-contain"
+          [alt]="config.logo.alt"
+          [src]="config.logo?.asset?.url"    
+        />
+        <h1 *ngIf="config.title" class="text-primary">{{ config.title }}</h1>
+      </a>
+      <template-top-navigation [items]="config.mainNavigation" [addShoppingCardIcon]="config.addShoppingCardIcon"></template-top-navigation>
+    </header>
+    <main class="flex flex-col items-stretch w-full mt-14">
+      <div class="w-full min-h-full flex-grow bg-cover bg-no-repeat" [style.background-image]="backgroundImage ? 'url('+ backgroundImage +')' : ''">
+        <router-outlet class="min-w-full"></router-outlet>
+      </div>
+      <footer class="flex flex-col w-full justify-center items-center bg-accent p-4 rounded space-y-4 py-12 border-t-4 border-primary">
+        <div class="social-media flex flex-row justify-items-center items-center space-x-4" *ngIf="config.socialMediaLinks">
+          <a *ngFor="let item of config.socialMediaLinks" [href]="item.href || '#'">
+            <img *ngIf="item.image?.asset" class="h-8" [src]="item.image.asset.url" [alt]="item.image.alt"/>
+          </a>
+        </div>
+        <div *ngIf="config.copyrightText || config.copyrightDate">
+          &copy; {{config.copyrightDate ? ((config.copyrightDate | date:'yyyy') + '-' +  (currentDate | date:'yyyy')) : ''}} {{config.copyrightText || ''}}
+        </div>
+      </footer>
+    </main>
+  </div>
+</ng-container>
+

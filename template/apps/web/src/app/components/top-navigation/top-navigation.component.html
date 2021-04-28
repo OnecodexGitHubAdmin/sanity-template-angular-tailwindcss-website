@@ -1,0 +1,36 @@
+
+<ng-container *ngrxLet="shoppingCartObservable$ as shoppingCart">
+  <div class="lg:flex hidden flex-row justify-center items-center space-x-8">
+    <a class="no-underline text-gray-600 hover:text-gray-300" *ngFor="let item of items" [routerLink]="[item.slug.current]">{{ item.title | uppercase }}</a>
+  </div>
+    <div class="lg:visible invisible absolute cursor-pointer right-8 top-2" *ngIf="addShoppingCardIcon" (click)="showCart = !showCart">
+      <img class="h-7 w-7" src="assets/Shopping-Cart.svg" alt="shopping cart"/>
+      <span class="absolute right-4 top-0 h-6 w-6 text-sm bg-primary text-accent rounded-full border border-accent text-center" *ngIf="amount > 0">{{amount}}</span>
+    </div>
+    <template-shopping-cart [cart]="shoppingCart" [show]="showCart"></template-shopping-cart>
+  <div class="lg:invisible visible flex flex-row space-x-4 items-center">
+    <div class="absolute cursor-pointer right-16 top-3" *ngIf="addShoppingCardIcon" (click)="showCart = !showCart">
+      <img class="h-7 w-7" src="assets/Shopping-Cart.svg" alt="shopping cart"/>
+      <span class="absolute right-4 top-0 h-6 w-6 text-sm bg-primary text-accent rounded-full border border-accent text-center" *ngIf="amount > 0">{{amount}}</span>
+    </div>
+    <template-shopping-cart [cart]="shoppingCart" [show]="showCart"></template-shopping-cart>
+    <div id="menu-toggle" [class.open]="showMenu" (click)="showMenu = !showMenu">
+      <div id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="cross">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div *ngIf="showMenu" class="mobile-menu flex flex-col justify-start items-stretch">
+      <div *ngFor="let item of items; let i = index">
+        <a class="no-underline text-gray-600 hover:text-gray-300" [routerLink]="[item.slug.current]" (click)="showMenu = false">{{ item.title | uppercase }}</a>
+        <hr *ngIf="i < items.length - 1"/>
+      </div>
+    </div>
+  </div>
+</ng-container>

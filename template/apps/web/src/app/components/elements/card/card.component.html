@@ -1,0 +1,14 @@
+<div class="flex justify-center items-start my-14">
+  <div class="p-10 flex flex-col justify-center space-y-4 bg-primary lg:w-1/2 w-11/12 text-accent text-center opacity-90">
+    <img class="max-w-full" *ngIf="imageUrl" [src]="imageUrl"/>
+    <h2 class="font-semibold text-accent text-xl" *ngIf="card.title">{{card.title}}</h2>
+    <h3 class="text-accent text-lg" *ngIf="card.subtitle">{{card.subtitle}}</h3>
+    <template-portable-text *ngFor="let item of card.text" [item]="item"></template-portable-text>
+    <div class="flex justify-center space-x-4">
+      <template-badge *ngFor="let tag of card.tags" [tag]="tag"></template-badge>
+    </div>
+    <div class="flex justify-evenly">
+      <template-button *ngFor="let cta of card.ctas" [route]="cta.link" [title]="cta.title" [inverse]="true"></template-button>
+    </div>      
+  </div>
+</div>

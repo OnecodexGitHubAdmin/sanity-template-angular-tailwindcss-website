@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "title": "Angular starter template",
+  "description": "Angular starter template in an nx workspace using scully.io. The studio and website will be deployed on Netlify. You can use it as website, blog or even a webshop. All these three different types are prepared in this starter template. It also includes common SEO techniques like meta tags, sitemap, ...",
+  "previewMedia": {
+    "type": "image",
+    "src": ".assets/template-logo.png",
+    "alt": "Angular Starter Template"
+  },
+  "technologies": [
+    {
+      "id": "angular",
+      "name": "Angular",
+      "url": "https://angular.io/"
+    },
+    {
+      "id": "nx",
+      "name": "NX Dev Tools",
+      "url": "https://nx.dev/"
+    },
+    {
+      "id": "scully",
+      "name": "Scully.io",
+      "url": "https://scully.io/"
+    },
+    {
+      "id": "ngrx",
+      "name": "NgRx",
+      "url": "https://ngrx.io/"
+    }
+  ],
+  "deployment": {
+    "provider": "netlify",
+    "sites": [
+      {
+        "id": "studio",
+        "type": "studio",
+        "title": "Sanity Studio",
+        "description": "The Sanity Studio is where you edit and structure your content.",
+        "dir": "./apps/studio",
+        "previewMedia": {
+          "type": "image",
+          "src": "assets/studio.png",
+          "alt": "Sanity Studio"
+        },
+        "requirements": ["build-hook"],
+        "buildSettings": {
+          "base": "apps/studio",
+          "dir": "dist",
+          "cmd": "npm run build && cp netlify.toml dist"
+        }
+      },
+      {
+        "id": "web",
+        "type": "web",
+        "title": "Pre-rendered angular client",
+        "description": "This is your final website, blog or webshop. It is built with angular and generates a static site using scully.io",
+        "dir": "./apps/web",
+        "buildSettings": {
+          "base": "/",
+          "dir": "/dist/static",
+          "cmd": "npm run build && npm run scully"
+        },
+        "requirements": ["build-hook"],
+        "previewMedia": {
+          "type": "image",
+          "src": "assets/website.png",
+          "alt": "Pre-rendered angular client"
+        }          
+      }
+    ]
+  }
+}

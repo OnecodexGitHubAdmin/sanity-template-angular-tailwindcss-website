@@ -1,0 +1,13 @@
+
+<ng-container *ngIf="$routeObservable | async as route"></ng-container>
+<div class="flex flex-row flex-1 flex-grow" fxLayout="row" [ngClass]="['justify-' + (banner.headingHAlignment || 'center'), 'items-' + (banner.headingVAlignment || 'center')]">
+  <img class="h-full w-full object-cover" *ngIf="imageUrl" [src]="imageUrl" [alt]="banner.image?.alt">
+  <div class="bg-primary lg:m-8 m-4 absolute p-10 space-y-6" *ngIf="banner.title || banner.subtitle || banner.description || banner.ctas?.length">
+    <h1 class="font-semibold text-center text-2xl text-accent">{{banner.title | uppercase}}</h1>
+    <h2 class="font-medium text-center text-lg text-accent">{{banner.subtitle}}</h2>
+    <div class="flex flex-row justify-evenly">
+      <template-button *ngFor="let cta of banner.ctas" [route]="cta.link" [title]="cta.title" [inverse]="true"></template-button>
+    </div>
+  </div>
+</div>
+

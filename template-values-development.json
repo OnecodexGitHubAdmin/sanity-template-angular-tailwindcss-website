@@ -1,0 +1,30 @@
+{
+  "repository": {
+    "name": "onecodex-sanity-website",
+    "owner": "OnecodexGitHubAdmin",
+    "private": true
+  },
+  "sanity": {
+    "dataset": "production",
+    "projectId": "vxqbsuag",
+    "projectTitle": "Sanity Angular"
+  },
+  "deployments": {
+    "studio": {
+      "url": "https://sanity-angular-website-studio.netlify.app",
+      "providerName": "netlify",
+      "providerInfo": {
+        "buildHookId": "5f889239cf90b11013b552c5",
+        "siteId": "77125b28-46f0-49e8-a955-8db8b6885d9c"
+      }
+    },
+    "web": {
+      "url": "https://sanity-angular-website.netlify.app",
+      "providerName": "netlify",
+      "providerInfo": {
+        "buildHookId": "5f8892390a7a000fe527100b",
+        "siteId": "11627919-f573-4f36-8df1-80f2222d646a"
+      }
+    }
+  }
+}

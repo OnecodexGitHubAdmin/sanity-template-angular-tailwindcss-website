@@ -1,0 +1,3 @@
+<ng-container *ngIf="($componentsObservable | async) as components">
+    <template-component-template *ngFor="let component of components" [item]="component"></template-component-template>
+</ng-container>

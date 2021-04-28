@@ -1,0 +1,799 @@
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------Problem during route handling, see below for details
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Problem during route handling, see below for details
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Problem during route handling, see below for details
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Problem during route handling, see below for details
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"test"} is invalid.The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"fgfgfd"} is invalid.The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"test2"} is invalid.
+
+
+Puppeteer error while rendering "fgfgfd"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test2"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+Puppeteer error while rendering "fgfgfd"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test2"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "fgfgfd"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test2"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"Test"} is invalid.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"Test"} is invalid.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"Test"} is invalid.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"Test"} is invalid.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "Test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"test"} is invalid.
+Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+The plugin 'routes' needs to return handledRoutes with a route that starts with '/'. The route {"route":"test"} is invalid.
+Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "test"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Could not write routes to files:
+  ".\apps\web\src\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\static\assets\scully-routes.json",
+  "C:\Users\mwolf\Documents\VisualStudioCode\sanity-template-angular-website\templates\dist\apps\web\assets\scully-routes.json"
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "undefined"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------

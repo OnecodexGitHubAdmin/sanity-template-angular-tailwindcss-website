@@ -1,0 +1,9 @@
+<div class="flex flex-col justify-center items-center p-8 space-y-8 bg-primary opacity-90 text-accent">
+  <img [src]="product.image?.asset?.url" />
+  <h1>{{ product.title }}</h1>
+  <template-button
+    *ngIf="product.route?.current"
+    [route]="product.route.current"
+    [title]="'Show product'" [inverse]="true"
+  ></template-button>
+</div>

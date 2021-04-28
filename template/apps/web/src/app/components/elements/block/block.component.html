@@ -1,0 +1,21 @@
+<div class="w-full" *ngIf="data._type == 'block'">
+  <h1 *ngIf="data.style == 'h1'">
+    <template-block-child *ngFor="let item of data.children" [data]="item"></template-block-child>
+  </h1>
+  <h2 *ngIf="data.style == 'h2'">
+    <template-block-child *ngFor="let item of data.children" [data]="item"></template-block-child>
+  </h2>
+  <h3 *ngIf="data.style == 'h3'">
+    <template-block-child *ngFor="let item of data.children" [data]="item"></template-block-child>
+  </h3>
+  <h4 *ngIf="data.style == 'h4'">
+    <template-block-child *ngFor="let item of data.children" [data]="item"></template-block-child>
+  </h4>
+  <h5 *ngIf="data.style == 'h5'">
+    <template-block-child *ngFor="let item of data.children" [data]="item"></template-block-child>
+  </h5>
+  <span *ngIf="data.style == 'normal'">
+    <template-block-child *ngFor="let item of data.children" [data]="item"></template-block-child>
+  </span>
+</div>
+<pre class="w-full p-4 border border-grey-300 bg-gray-100 overflow-auto text-left" *ngIf="data._type == 'code'">{{data.code}}</pre>

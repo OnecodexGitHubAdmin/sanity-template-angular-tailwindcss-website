@@ -1,0 +1,8 @@
+<ng-container *ngIf="$productsObservable | async as products">
+  <div class="p-10 flex flex-row justify-start items-start space-x-10 flex-wrap">
+    <template-product-card
+      *ngFor="let product of products"
+      [product]="product"
+    ></template-product-card>
+  </div>
+</ng-container>

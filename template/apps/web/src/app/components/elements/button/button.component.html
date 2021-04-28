@@ -1,0 +1,5 @@
+<div class="my-4">
+  <a class="p-2 border-2 text-center no-underline cursor-pointer" [class.border-primary]="!inverse" [class.text-primary]="!inverse" [class.border-accent]="inverse" [class.text-accent]="inverse" *ngIf="route" [href]="route" [class.inverse]="inverse">{{title | uppercase}}</a>
+  <a  class="p-2 border-2 text-center no-underline cursor-pointer" [class.border-primary]="!inverse" [class.text-primary]="!inverse" [class.border-accent]="inverse" [class.text-accent]="inverse" *ngIf="!route" (click)="clickBtn()" [class.inverse]="inverse">{{title | uppercase}}</a>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="py-12 px-8 flex flex-row justify-center">
+  <div class="flex flex-col justify-start lg:w-4/6 w-11/12 space-y-4">
+    <h1 class="font-semibold text-center text-2xl">{{data.title}}</h1>
+    <small class="text-center">{{data._updatedAt | date: 'dd.MM.yyyy'}}</small>
+    <div class="badges flex flex-row justify-center">
+      <template-badge *ngFor="let tag of data.tags" [tag]="tag"></template-badge>
+    </div>
+    <p class="text-center">{{data.introduction}}</p>
+    <template-portable-text class="text-center" *ngFor="let item of data.content" [item]="item"></template-portable-text>
+  </div>
+</div>

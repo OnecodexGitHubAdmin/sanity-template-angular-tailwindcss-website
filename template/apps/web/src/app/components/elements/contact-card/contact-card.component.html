@@ -1,0 +1,10 @@
+<div class="flex flex-col justify-center items-center p-10 h-full">
+  <div class="bg-primary p-10 w-1/2 flex flex-col items-center space-y-6 text-accent text-center opacity-90">
+    <h2 class="font-semibold text-2xl text-center" *ngIf="data.title">{{data.title}}</h2>
+    <template-portable-text *ngFor="let item of data.text" [item]="item"></template-portable-text>
+    <div fxLayout="row" fxLayoutAlign="space-evenly start">
+      <template-button *ngFor="let cta of data.ctas" [route]="cta.link" [title]="cta.title" [inverse]="true"></template-button>
+    </div>
+    <iframe class="py-8" *ngIf="data.map" [src]="sanitizeUrl(data.map)" width="600" height="450" frameborder="0" allowfullscreen="" marginheight="0" marginwidth="0"></iframe>
+  </div>
+</div>

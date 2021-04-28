@@ -1,0 +1,23 @@
+<div class="lg:hidden flex flex-col justify-start items-center space-y-8 p-10 text-center">
+  <h3>{{ product.title }}</h3>
+  <div fxLayout="row" fxLayoutAlign="center start">
+    <img class="h-64" [src]="product.image?.asset?.url"/>
+  </div>
+  <template-portable-text *ngFor="let item of product.productDescription" [item]="item"></template-portable-text>
+  <div>
+    <template-button (btnClick)="addToCart(product)" title="Add To Cart"></template-button>
+  </div>
+</div>
+
+<div class="lg:flex lg:flex-row justify-center space-x-36 hidden p-10 text-center">
+  <div fxLayout="row" fxLayoutAlign="center start">
+    <img class="h-80" [src]="product.image?.asset?.url"/>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="15px">
+    <h3>{{ product.title }}</h3>
+    <template-portable-text *ngFor="let item of product.productDescription" [item]="item"></template-portable-text>
+    <div>
+      <template-button (btnClick)="addToCart(product)" title="Add To Cart"></template-button>
+    </div>
+  </div>
+</div>

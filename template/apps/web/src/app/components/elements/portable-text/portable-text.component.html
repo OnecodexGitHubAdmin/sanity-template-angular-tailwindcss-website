@@ -1,0 +1,6 @@
+<template-block *ngIf="item._type === 'block' || item._type === 'code'" [data]="item">
+</template-block>
+<template-figure *ngIf="item._type === 'figure'" [data]="item" >
+</template-figure>
+<template-embed-html *ngIf="item._type === 'embedHTML'" [data]="item" >
+</template-embed-html>
