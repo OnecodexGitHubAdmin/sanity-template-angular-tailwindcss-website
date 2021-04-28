@@ -3,7 +3,7 @@
 This project is an angular starter template for [sanity.io](https://sanity.io).
 It can be used as a website, blog or even a web shop. All the different types are prepared as show case.
 
-<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-website/raw/master/assets/website.png?raw=true" width="450"></p>
+<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-tailwindcss-website/raw/master/assets/website.png?raw=true" width="450"></p>
 
 ## Tooling and technologies
 * Angular
@@ -18,7 +18,7 @@ You can easily extend the project with Material or any as usual in angular proje
 ## Structure
 
 The project is split into two different applications (in the apps folder).
-<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-website/raw/master/assets/structure.png?raw=true" width="300"></p>
+<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-tailwindcss-website/raw/master/assets/structure.png?raw=true" width="300"></p>
 
 The studio app is for defining and configure your types, pages and products.
 The web app is the angular client. 
@@ -33,16 +33,16 @@ You can simply create the types you need.
 For further information see [Sanity.io Schema Types Documentation](https://www.sanity.io/docs/schema-types)
 
 For the newly created type you generate a new component in src/app/components/elements. I recommend using nx for that (se documentation below), since you're inside an nx workspace.
-<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-website/raw/master/assets/web-elements.png?raw=true" width="300"></p>
+<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-tailwindcss-website/raw/master/assets/web-elements.png?raw=true" width="300"></p>
 
 Your new component must extend the DynamicComponent interface and implement the data input property which is defined as a type that extends SanityType interface.
-<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-website/raw/master/assets/angular-component.png?raw=true" width="450"></p>
+<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-tailwindcss-website/raw/master/assets/angular-component.png?raw=true" width="450"></p>
 
 Now you need to introduce your newly generated dynamic component to the resolvers.
 If your element is a document type, you need to introduce it to the content component:
-<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-website/raw/master/assets/content-component-location.png?raw=true" width="300"></p>
+<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-tailwindcss-website/raw/master/assets/content-component-location.png?raw=true" width="300"></p>
 And implement the new case:
-<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-website/raw/master/assets/content-component.png?raw=true" width="300"></p>
+<p style="text-align: center;"><img src="https://github.com/OnecodexGitHubAdmin/sanity-template-angular-tailwindcss-website/raw/master/assets/content-component.png?raw=true" width="300"></p>
 
 **Please also ensure that you have included the new document type in the fetchContent method in sanity.service.ts **
 Therefore you should have a look into [Sanity GROQ queries](https://www.sanity.io/docs/query-cheat-sheet)
