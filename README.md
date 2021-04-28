@@ -4,7 +4,7 @@ _Angular template for websites, blogs or web shops. Built with sanity, angular, 
 
 This template repo is used to easily create a website, blog or webshop through a web interface. You can also deploy and configure it through this interface. You can test it by [creating this project](https://www.sanity.io/create/?template=OneCodexGithubAdmin/sanity-template-angular-website).
 
-The template contains both a Sanity Studio and a front-end in Angular. Both are packed inside an nx workspace for better tooling support and deployed on Netlify. So it's really easy to add whatever you want. For example you can easily add angular material or tailwind CSS and use it in your front-end.
+The template contains both a Sanity Studio and a front-end in Angular. Both are packed inside an nx workspace for better tooling support and deployed on Netlify. So it's really easy to add whatever you want. For example you can easily add angular material or any and use it in your front-end.
 
 The Angular front-end is using scully to generate static pages before being deployed. 
 

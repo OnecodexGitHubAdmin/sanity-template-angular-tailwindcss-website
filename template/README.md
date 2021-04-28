@@ -13,7 +13,7 @@ It can be used as a website, blog or even a web shop. All the different types ar
 * Sanity
 * Scully
 
-You can easily extend the project with Tailwind CSS, Material or others as usual in angular projects
+You can easily extend the project with Material or any as usual in angular projects
 
 ## Structure
 

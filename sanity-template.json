@@ -14,6 +14,11 @@
       "url": "https://angular.io/"
     },
     {
+      "id": "ngrx",
+      "name": "NgRx",
+      "url": "https://ngrx.io/"
+    },
+    {
       "id": "nx",
       "name": "NX Dev Tools",
       "url": "https://nx.dev/"
@@ -24,9 +29,9 @@
       "url": "https://scully.io/"
     },
     {
-      "id": "ngrx",
-      "name": "NgRx",
-      "url": "https://ngrx.io/"
+      "id": "tailwindcss",
+      "name": "tailwind CSS",
+      "url": "https://tailwindcss.com/"
     }
   ],
   "deployment": {
