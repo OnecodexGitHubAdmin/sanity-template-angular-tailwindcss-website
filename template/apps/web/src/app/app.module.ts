@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { ScullyLibModule } from '@scullyio/ng-lib';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { ActionReducerMap, MetaReducer, StoreModule } from '@ngrx/store';
 import { ReactiveComponentModule } from '@ngrx/component';
 
@@ -37,10 +36,12 @@ import { ShoppingCartStore } from './models/store/shopping-cart-store';
 import { PortableTextComponent } from './components/elements/portable-text/portable-text.component';
 
 export const reducers: ActionReducerMap<ShoppingCartStore> = {
-  shoppingCart: shoppingCartReducer
+  shoppingCart: shoppingCartReducer,
 };
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const metaReducers: MetaReducer<any>[] = [storageShoppingCartMetaReducer];
+export const metaReducers: MetaReducer<any>[] = [
+  storageShoppingCartMetaReducer,
+];
 
 @NgModule({
   declarations: [
@@ -75,9 +76,8 @@ export const metaReducers: MetaReducer<any>[] = [storageShoppingCartMetaReducer]
     AppRoutingModule,
     HttpClientModule,
     ScullyLibModule,
-    FlexLayoutModule,
     ReactiveComponentModule,
-    StoreModule.forRoot(reducers, { metaReducers })
+    StoreModule.forRoot(reducers, { metaReducers }),
   ],
   providers: [],
   bootstrap: [AppComponent],
