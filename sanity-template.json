@@ -4,7 +4,7 @@
   "description": "Angular starter template in an nx workspace using scully.io. The studio and website will be deployed on Netlify. You can use it as website, blog or even a webshop. All these three different types are prepared in this starter template. It also includes common SEO techniques like meta tags, sitemap, ...",
   "previewMedia": {
     "type": "image",
-    "src": ".assets/template-logo.png",
+    "src": "assets/template-logo.png",
     "alt": "Angular Starter Template"
   },
   "technologies": [
