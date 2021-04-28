@@ -1,6 +1,6 @@
 # sanity-template-angular-tailwindcss-website
 
-_Angular template for websites, blogs or web shops. Built with sanity, angular, scully.io, nrwl._
+_Angular template for websites, blogs or web shops. Built with angular, netlify, nrwl, sanity, scully.io, tailwindcss._
 
 This template repo is used to easily create a website, blog or webshop through a web interface. You can also deploy and configure it through this interface. You can test it by [creating this project](https://www.sanity.io/create/?template=OneCodexGithubAdmin/sanity-template-angular-tailwindcss-website).
 
