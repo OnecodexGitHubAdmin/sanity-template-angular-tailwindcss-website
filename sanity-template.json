@@ -1,6 +1,7 @@
 {
   "version": 2,
   "title": "Angular starter template",
+  "title": "Angular/Tailwind CSS starter template",
   "description": "Angular starter template in an nx workspace using scully.io. The studio and website will be deployed on Netlify. You can use it as website, blog or even a webshop. All these three different types are prepared in this starter template. It also includes common SEO techniques like meta tags, sitemap, ...",
   "previewMedia": {
     "type": "image",
