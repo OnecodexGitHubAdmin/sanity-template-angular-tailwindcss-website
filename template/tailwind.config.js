@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./apps/ngconf-tailwind/src/**/*.{html,ts}'],
+  purge: ['./apps/web/src/**/*.{html,ts}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
