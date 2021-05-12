@@ -19,6 +19,11 @@ export default {
           scheme: ['https', 'http', 'mailto', 'tel'],
         }),
     },
+    {
+      title: 'Image',
+      name: 'image',
+      type: 'figure'
+    },
   ],
   preview: {
     select: {
