@@ -16,7 +16,7 @@
       </div>
       <footer class="flex flex-col w-full justify-center items-center bg-accent p-4 rounded space-y-4 py-12 border-t-4 border-primary">
         <div class="social-media flex flex-row justify-items-center items-center space-x-4" *ngIf="config.socialMediaLinks">
-          <a *ngFor="let item of config.socialMediaLinks" [href]="item.href || '#'">
+          <a *ngFor="let item of config.socialMediaLinks" [href]="item.href || '#'" target="_blank">
             <img *ngIf="item.image?.asset" class="h-8" [src]="item.image.asset.url" [alt]="item.image.alt"/>
           </a>
         </div>
