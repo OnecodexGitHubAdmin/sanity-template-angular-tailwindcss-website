@@ -37,4 +37,4 @@ After implementing some changes if you get the following error in sanity studio,
 
 **Run `sanity install color-picker` in `./build/apps/studio`.**
 
-Visit the [Plugion Documentation](https://www.sanity.io/plugins/sanity-plugin-color-picker) to learn more.
+Visit the [Plugin Documentation](https://www.sanity.io/plugins/sanity-plugin-color-picker) to learn more.
