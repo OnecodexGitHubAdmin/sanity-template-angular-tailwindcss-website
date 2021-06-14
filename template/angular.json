@@ -53,7 +53,14 @@
             "extractLicenses": false,
             "buildOptimizer": false,
             "sourceMap": true,
-            "optimization": false,
+            "optimization": {
+              "fonts": {
+                "inline": true
+              },
+              "styles": {
+                "inlineCritical": true
+              }
+            },
             "namedChunks": true
           },
           "configurations": {
@@ -64,7 +71,14 @@
                   "with": "apps/web/src/environments/environment.prod.ts"
                 }
               ],
-              "optimization": true,
+              "optimization": {
+                "fonts": {
+                  "inline": true
+                },
+                "styles": {
+                  "inlineCritical": true
+                }
+              },
               "outputHashing": "all",
               "sourceMap": false,
               "namedChunks": false,
